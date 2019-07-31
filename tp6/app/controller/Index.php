@@ -18,4 +18,8 @@ class Index extends BaseController
     {
         return 'hello,' . $name;
     }
+    public function hello3($name = 'ThinkPHP6')
+    {
+        return 'hello,' . $name;
+    }
 }
